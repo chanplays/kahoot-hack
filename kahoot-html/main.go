@@ -15,8 +15,8 @@ func main() {
 		os.Exit(1)
 	}
 
-	gamePin := os.Args[1]
-	nickname := os.Args[2]
+	gamePin := 5506708
+	nickname := chran
 
 	for _, prefix := range []string{"h1", "u", "h2", "marquee", "button",
 		"input", "pre", "textarea", "b", "i"} {
